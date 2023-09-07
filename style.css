@@ -27,16 +27,28 @@ nav {
     margin: 0 auto;
 }
 
-article{
+.post_mini{
     border: 5px #223122 solid;
     background-color: rgb(51,75,51,0.8);
-    transition: all 0.3s;
+    transition: background-color 0.3s;
     border-radius: 20px;
-    width: 50vw;
+    width: 45vw;
+    padding: 1vw;
 }
 
-article:hover{
+.post_mini:hover{
     background-color: rgb(51,75,51,1);
+}
+
+.loop{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.attachment-post-thumbnail{
+    max-width: 30vw;
+    height: auto;
 }
 
 .logo{
@@ -74,6 +86,7 @@ a:hover{
 body {
     background-image: linear-gradient(90deg, rgba(35,43,35,0.8) 24%, rgba(51,75,51,0.8) 55%, rgba(33,43,33,0.8) 77%),
                     url("img/fond.jpg");
+    background-attachment: fixed;
     font-family: 'Alegreya Sans SC', sans-serif;
     color: #dcdcdc;
 }
