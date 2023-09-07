@@ -13,8 +13,12 @@
 </head>
 
 <body<?php body_class(); ?>>
+
     <header class="header">
-        <a href="<?php echo home_url ('/');?>">
-            <img src="<?php echo get_template_directory_uri();?>/img/logo-eni.png" alt="">
-        </a>
+        <nav>
+            <a href="<?php echo home_url ('/');?>">
+                <img class="logo" src="<?php echo get_template_directory_uri();?>/img/logo-ns.png" alt="">
+            </a>
+            <?php wp_nav_menu(); ?>
+        </nav>
 <?php wp_body_open(); ?>
