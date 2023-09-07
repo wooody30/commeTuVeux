@@ -19,7 +19,7 @@
             <a href="<?php echo home_url ('/');?>">
                 <img class="logo" src="<?php echo get_template_directory_uri();?>/img/logo-ns.png" alt="">
             </a>
-            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="adrouate">&#9776; </span>
             <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <?php wp_nav_menu(); ?>
@@ -28,11 +28,11 @@
 
         <script>
             function openNav() {
-                document.getElementById("mySidenav").style.width = "15%";
+                document.getElementById("mySidenav").style.left = "85%";
             }
 
             function closeNav() {
-                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("mySidenav").style.left = "100%";
             }
         </script>
 <?php wp_body_open(); ?>
