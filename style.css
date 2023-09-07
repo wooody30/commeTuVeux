@@ -32,8 +32,9 @@ nav {
     background-color: rgb(51,75,51,0.8);
     transition: background-color 0.3s;
     border-radius: 20px;
-    width: 45vw;
+    width: 43vw;
     padding: 1vw;
+    margin: 2vw;
 }
 
 .post_mini:hover{
