@@ -1,12 +1,12 @@
 <?php get_header(); ?>
-<h1>Le Mag</h1>
+<h1>Derniers articles</h1>
 <?php if(have_posts()) : while( have_posts()) : the_post(); ?>
 
 
 <article class="post">
     <?php the_category(); ?>
     <a href="<?php the_permalink(); ?>"><h2><?php the_title();?></h2></a>
-    <?php the_post_thumbnail(); ?>
+    <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
     <p class="post_meta">
         Vérité révélée aux esprits libres par <?php the_author(); ?> le <?php the_date(); ?>
     </p>

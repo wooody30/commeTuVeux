@@ -6,7 +6,6 @@
             <p>
                 Vérité révélée aux esprits libres par <?php the_author(); ?> le <?php the_date(); ?>
                 Catégorie :  <?php the_category(); ?>
-                Tags :  <?php the_tags(); ?>
             </p>
         </div>
         <div class="post_content">
