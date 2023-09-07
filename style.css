@@ -41,12 +41,14 @@ nav {
 }
 
 .post_mini{
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, box-shadow 0.3s;
     width: 43vw;
+    box-shadow: 4px 4px 15px 5px rgba(0,0,0,0.65);
 }
 
 .post_mini:hover{
-    background-color: rgb(51,75,51,1);
+    background-color: rgb(55, 77, 55);
+    box-shadow: 4px 4px 15px 5px rgb(0, 0, 0, 0.85);
 }
 
 .loop{
