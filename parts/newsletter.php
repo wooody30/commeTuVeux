@@ -1,0 +1,1 @@
+<p>Ceci est un fragment newsletter</p>
