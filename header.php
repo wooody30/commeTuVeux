@@ -11,7 +11,7 @@
     <header class="header">
         <nav>
             <a href="<?php echo home_url ('/');?>">
-                <img class="logo" src="<?php echo get_template_directory_uri();?>/img/logo-ns.png" alt="">
+                <img class="petitlogo" src="<?php echo get_template_directory_uri();?>/img/logo-ns.png" alt="">
             </a>
             <span onclick="openNav()" class="adrouate">&#9776; </span>
             <div id="mySidenav" class="sidenav">
@@ -19,7 +19,6 @@
                 <?php wp_nav_menu(); ?>
             </div>
         </nav>
-
         <script>
             function openNav() {
                 document.getElementById("mySidenav").style.left = "85%";
