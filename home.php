@@ -5,8 +5,7 @@
     <h2><?php the_title();?></h2>
     <?php the_post_thumbnail(); ?>
     <p class="post_meta">
-        Edité le
-        Par
+        Vérité révélée aux esprits libres par <?php the_author(); ?> le <?php the_date(); ?>
     </p>
 
     <?php the_excerpt(); ?>
