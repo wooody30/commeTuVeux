@@ -20,6 +20,11 @@ lmp
 
 /*@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Orbitron:wght@700&family=Wallpoet&display=swap');*/
 
+header{
+    position : sticky;
+    top : 0px;
+}
+
 nav {
     background: #334b33;
     font-family: "Source Sans Pro";
@@ -27,14 +32,17 @@ nav {
     margin: 0 auto;
 }
 
-.post_mini{
+.post{
     border: 5px #223122 solid;
     background-color: rgb(51,75,51,0.8);
-    transition: background-color 0.3s;
     border-radius: 20px;
-    width: 43vw;
+    margin: 10px;
     padding: 1vw;
-    margin: 2vw;
+}
+
+.post_mini{
+    transition: background-color 0.3s;
+    width: 43vw;
 }
 
 .post_mini:hover{
@@ -96,7 +104,7 @@ body {
     position: fixed; /* Stay in place */
     right: 1%;
     color: #818181;
-    font-size:30px;
+    font-size:40px;
     cursor:pointer;
     transition: 0.3s;
 }
@@ -146,6 +154,10 @@ body {
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
 }
