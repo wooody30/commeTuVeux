@@ -64,6 +64,10 @@ nav {
     width: 15vw;
 }
 
+.petitlogo{
+    width: 8vw;
+}
+
 h1{
     font-family: 'Orbitron', sans-serif;
     text-align: center;
@@ -116,7 +120,6 @@ body {
     list-style-type : none;
 }
 .sidenav {
-
     height: 100%; /* 100% Full-height */
     width: 15%; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
