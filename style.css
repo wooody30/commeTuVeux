@@ -144,6 +144,8 @@ body {
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s;
+    box-shadow: -9px 0px 40px 4px rgba(0,0,0,0.74);
+    border-radius: 100px 0px 0px 100px;
     /* 0.5 second transition effect to slide in the sidenav */
 }
 
