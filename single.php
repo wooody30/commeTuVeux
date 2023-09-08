@@ -12,6 +12,8 @@
             <?php the_content(); ?>
         </div>
     </article>
-<?php endwhile; endif; ?>
     <a href="<?php echo home_url ('/liste');?>"><h2>Retour aux articles</h2></a>
+    <?php comments_template(); // Par ici les commentaires ?>
+<?php endwhile; endif; ?>
+
 <?php get_footer(); ?>

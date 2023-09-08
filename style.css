@@ -171,6 +171,59 @@ body {
     margin-left: 50px;
 }
 
+textarea{
+    border-radius : 10px;
+    background-color: rgba(51, 75, 51, 0.35);
+    border: 4px #7eb07e solid;
+    transition : all 0.2s;
+    font-size: 1.2em;
+}
+
+textarea:hover{
+    background-color: rgba(51, 75, 51);
+}
+
+textarea:focus{
+    border-radius : 5px;
+    background-color: #a0ac93;
+    border: 4px #c4e8c4 solid;
+    outline : none;
+}
+
+@keyframes shaking {
+    0% { transform: translateX(0) }
+    25% { transform: translateX(5px) }
+    50% { transform: translateX(-5px) }
+    75% { transform: translateX(5px) }
+    100% { transform: translateX(0) }
+}
+
+.submit{
+    color : inherit;
+    margin-left: 5vw;
+    padding : 15px;
+    border-radius : 10px;
+    background-color: rgba(51, 75, 51, 0.35);
+    border: 4px #7eb07e solid;
+    transition : all 0.2s;
+    font-size: 1.2em;
+}
+
+.submit:hover{
+    background-color: rgba(51, 75, 51);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #66f80a, 0 -10px 20px #2da932, 0 -18px 40px #41682b;
+    box-shadow: 11px 14px 42px 4px #000000;
+    animation: shaking 0.10s 4;
+}
+
+.submit:focus{
+    border-radius : 5px;
+    background-color: #a0ac93;
+    border: 4px #c4e8c4 solid;
+    outline : none;
+}
+
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
