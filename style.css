@@ -18,7 +18,6 @@ Text Domain:  mon premier site
 lmp
 */
 
-/*@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Orbitron:wght@700&family=Wallpoet&display=swap');*/
 
 header {
     position: sticky;
@@ -139,6 +138,7 @@ body {
 }
 
 .sidenav {
+
     height: 100%; /* 100% Full-height */
     width: 15%; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
