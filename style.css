@@ -121,6 +121,7 @@ body {
 }
 
 .adrouate {
+    transform: rotate(-90deg);
     position: fixed; /* Stay in place */
     right: 1%;
     color: #818181;
@@ -130,6 +131,7 @@ body {
 }
 
 .adrouate:hover {
+    transform: rotate(0deg);
     color: #f1f1f1;
 }
 
@@ -180,7 +182,7 @@ textarea {
     border-radius: 10px;
     background-color: rgba(51, 75, 51, 0.35);
     border: 4px #7eb07e solid;
-    transition: all 0.2s;
+    transition: all 0.5s;
     font-size: 1.2em;
 }
 
