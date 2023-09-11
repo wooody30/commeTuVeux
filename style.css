@@ -433,3 +433,17 @@ textarea:focus {
 .rick {
     text-align: center;
 }
+
+.katsankatr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.katsankatr img{
+    width: 33%;
+}
+
+.katsankatr a img {
+    width: 100%;
+}
