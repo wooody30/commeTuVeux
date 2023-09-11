@@ -134,8 +134,8 @@ body {
     color: #f1f1f1;
 }
 
-.menu ul {
-    list-style-type: none;
+.menu {
+    list-style-type : none;
 }
 
 .sidenav {
@@ -426,4 +426,8 @@ textarea:focus {
     .sidenav a {
         font-size: 18px;
     }
+}
+
+.rick {
+    text-align: center;
 }
