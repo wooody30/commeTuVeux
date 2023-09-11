@@ -263,6 +263,7 @@ textarea:focus {
 
 .faulty-letter {
     opacity: 0.5;
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em #35d53c;
     animation: faulty-flicker 2s linear infinite;
 }
 
