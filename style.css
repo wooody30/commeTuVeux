@@ -240,6 +240,7 @@ textarea:focus {
 }
 
 .glowing-btn {
+    font-family: 'Wallpoet', cursive;
     margin-bottom: 50px;
     position: relative;
     color: #35d53c;
