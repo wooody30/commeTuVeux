@@ -214,6 +214,7 @@ textarea:focus {
 }
 
 .submit {
+    font-family: 'Wallpoet', cursive;
     color: inherit;
     margin-left: 5vw;
     padding: 15px;
