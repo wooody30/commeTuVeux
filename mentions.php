@@ -4,12 +4,8 @@ Template Name: Mentions
 */
 ?>
 <?php get_header(); ?>
-    <figure>
-        <audio  autoplay loop src="<?php echo get_template_directory_uri();?>/audio/mentionsLegales.mp3">
-        </audio>
-    </figure>
-
-<div class="rick">
+<br>
+    <div class="rick">
 We're no strangers to love <br>
 You know the rules and so do I (do I)<br>
 A full commitment's what I'm thinking of<br>
