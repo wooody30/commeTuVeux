@@ -33,6 +33,8 @@
     </script>
 </header>
 
+<?php get_template_part('parts/caroussel');?>
+
     <h1 class="titreprincipal">La vérité n'est pas ailleurs</h1>
 <?php //get_template_part('parts/newsletter');?>
 <p style="text-align: center">Face à la censure et à la bien-pensance des merdias, nous avons décidé de maintenir ce site d'informations alternatif
