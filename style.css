@@ -62,9 +62,11 @@ nav {
     height: auto;
 }
 
+
 .logo {
     width: 15vw;
 }
+
 
 .petitlogo {
     width: 8vw;
@@ -83,20 +85,18 @@ nav {
 }
 
 h1 {
+    box-shadow: 4px 4px 15px 5px rgba(0, 0, 0, 0.65);
     font-family: 'Orbitron', sans-serif;
     text-align: center;
     font-size: 4em;
 }
-
-/*.titreprincipal {*/
-/*    font-family: 'Orbitron', sans-serif;*/
-/*}*/
 
 h2 {
     text-align: center;
 }
 
 p {
+    font-size: 1.5em;
     text-align: justify;
 }
 
