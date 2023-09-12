@@ -22,6 +22,7 @@ lmp
 header {
     position: sticky;
     top: 0px;
+    z-index: 6;
 }
 
 nav {
@@ -459,13 +460,11 @@ textarea:focus {
 .caroussel {
     width: 100vw;
     height: 200px;
-}
-
-.caroussel {
     position: relative;
-    width: 95vw;
+    width: 98vw;
     height: 45vh;
     margin-top: 5vh;
+    overflow: hidden;
 }
 
 .caroussel > img {
@@ -474,7 +473,14 @@ textarea:focus {
     top: 0;
     left: calc(50% - 100px);
     opacity: 0;
+    border-radius: 10px;
     animation: defilement 10s infinite;
+    border: 5px #223122 solid;
+    transition: all 0.5s;
+}
+
+.caroussel>img:hover{
+    height : 42vh;
 }
 
 img:nth-child(2) {
@@ -492,7 +498,7 @@ img:nth-child(5) {
 
 @keyframes defilement {
     0% {
-        transform: translateX(200px);
+        transform: translateX(500px) scale(80%);
         opacity: 0.5;
         z-index : 5;
     }
@@ -505,22 +511,44 @@ img:nth-child(5) {
         transform: translateX(0);
         opacity: 1;
         z-index : 5;
+        filter: blur(0px);
     }
     30% {
-        transform: translateX(-500px);
+        transform: translateX(-500px) scale(80%);
         opacity: 0.5;
         z-index : 1;
     }
     40%{
-        transform: translateX(-500px);
+        transform: translateX(-500px) scale(80%);
         opacity: 0.5;
     }
     50%{
-        transform: translateX(-1000px);
+        transform: translateX(-1000px) scale(60%);
         opacity: 0.2;
+        filter: blur(4px);
     }
-    100% {
-        transform: translateX(-1000px);
+    60%{
+        transform: translateX(-1000px) scale(60%);
+        opacity: 0.2;
+        filter: blur(4px);
+    }
+    70%{
+        transform: translateX(-1500px) scale(60%);
         opacity: 0;
     }
+    80%{
+        transform: translateX(1000px) scale(80%);
+        opacity: 0;
+        filter: blur(4px);
+    }
+    90%{
+        transform: translateX(500px) scale(80%);
+        opacity: 0.5;
+    }
+    100%{
+        transform: translateX(500px) scale(80%);
+        opacity: 0.5;
+        filter: blur(4px);
+    }
+
 }
