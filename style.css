@@ -25,7 +25,6 @@ header {
 }
 
 nav {
-
     background: #334b33;
     font-family: "Source Sans Pro";
     color: #4b5157;
@@ -455,4 +454,73 @@ textarea:focus {
 
 .katsankatr a img {
     width: 100%;
+}
+
+.caroussel {
+    width: 100vw;
+    height: 200px;
+}
+
+.caroussel {
+    position: relative;
+    width: 95vw;
+    height: 45vh;
+    margin-top: 5vh;
+}
+
+.caroussel > img {
+    height : 40vh;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 100px);
+    opacity: 0;
+    animation: defilement 10s infinite;
+}
+
+img:nth-child(2) {
+    animation-delay: 2s;
+}
+img:nth-child(3) {
+    animation-delay: 4s;
+}
+img:nth-child(4) {
+    animation-delay: 6s;
+}
+img:nth-child(5) {
+    animation-delay: 8s;
+}
+
+@keyframes defilement {
+    0% {
+        transform: translateX(200px);
+        opacity: 0.5;
+        z-index : 5;
+    }
+    10% {
+        transform: translateX(0);
+        opacity: 1;
+        z-index : 5;
+    }
+    20% {
+        transform: translateX(0);
+        opacity: 1;
+        z-index : 5;
+    }
+    30% {
+        transform: translateX(-500px);
+        opacity: 0.5;
+        z-index : 1;
+    }
+    40%{
+        transform: translateX(-500px);
+        opacity: 0.5;
+    }
+    50%{
+        transform: translateX(-1000px);
+        opacity: 0.2;
+    }
+    100% {
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
 }
