@@ -458,8 +458,6 @@ textarea:focus {
 }
 
 .caroussel {
-    width: 100vw;
-    height: 200px;
     position: relative;
     width: 98vw;
     height: 45vh;
